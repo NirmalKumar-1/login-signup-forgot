@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(2, 0, 0, 0.151);
+}
+
+/* main box */
+.main {
+    background-color: white;
+    margin-top: 100px;
+    width: 470px;
+    box-shadow: 10px 10px 20px rgba(118, 54, 54, 0.3);
+}
+
+/* up box */
+.upBox {
+    width: 92%;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.img{
+    width: 20%;
+    float: left;
+}
+
+.a a {
+    color: #698db9;
+}
+.a{
+    width: 32%;
+    float: right;
+    margin-top: 5px;
+}
+.upBox img{
+    width: 100%;
+}
+
+.upBox a{
+    width: 100%;
+    font-size: .8rem;
+    font-weight: 800;
+}
+
+/* inner box */
+.inner {
+    margin-top: 100px;
+    width: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* inner down box */
+.innerDown {
+    margin-top: 20px;
+    background-color: white;
+    width: 60%;
+} 
+
+/* lock logo */
+.logo i{
+    scale: 2;
+    padding: 2px 3px;
+    border-top: .1px solid #ED1C24;
+    border-left: .1px solid #ED1C24;
+    border-bottom: .1px solid #698db9;
+    border-right: .1px solid #698db9;
+    border-radius: 5px;
+}
+
+/* main heading */
+h2 {
+    margin-top: 25px;
+}
+
+/* instruction line  */
+.inst {
+    font-size: .9rem;
+    margin-top: 5px;
+    color: #96999B;
+}
+
+/* email */
+.email h4{
+    float: left;
+    margin-top: 20px;
+    color: #686B70;
+}
+
+.email input {
+    width: 100%;
+    margin-top: 7px;
+    height: 32px;
+    border-radius: 5px;
+    border: 2px solid #a8a3a3;
+}
+
+.email input::placeholder{
+    font-size: 13px;
+    font-weight: 540;
+    color: #9C9D9F;
+    padding-left: 8px;
+}
+
+/* continue button */
+.continue {
+    cursor: pointer;
+    letter-spacing: 1px;
+    width: 102%;
+    margin-top: 20px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: #175EEA;
+}
+
+/* back to logIn option */
+.logIn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.logIn i{
+    margin-right: 8px;
+    font-size: 13px;
+    color: #808388;
+    cursor: pointer;
+}
+
+
+.logIn p {
+    float: right;
+    font-weight: 800;
+    font-size: .8rem;
+    color: #808388;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+

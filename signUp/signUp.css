@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: rgb(67, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    background-color: rgba(2, 0, 0, 0.151);
+}
+
+/* main box */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    background-color: white;
+    margin-top: 10vh;
+    box-shadow: 10px 10px 20px rgba(118, 54, 54, 0.3);
+}
+
+/* inner box */
+.inner {
+    width: 68%;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+/* main logo */
+.logoDiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.mainLogo {
+    height: 28px;
+    cursor: pointer;
+}
+
+/* main heading */
+.inner h1 {
+    margin-left: -4px;
+    margin-bottom: -2px;
+    margin-top: 20px;
+}
+
+.inner p {
+    margin-top: 10px;
+    font-size: .7rem;
+}
+
+.inner a{
+    color: #551A8B;
+}
+
+/* name box */
+.name {
+    display: flex;
+    width: 100%;
+    margin-top: 32px;
+}
+
+input {
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(2, 0, 0, 0.151);
+}
+
+
+.firstName, .lastName {
+    width: 48%;
+}
+
+.lastName {
+    margin-left: 4%;
+}
+
+input::placeholder {
+    padding-left: 14px;
+}
+
+/* email & password */
+.verify {
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* T & C */
+.agree {
+    display: flex;
+    margin-top: 1px;
+}
+
+.agree input{
+    scale: 1.3;
+}
+
+.agree p {
+    font-size: .65rem;
+    margin-left: 8px;
+    margin-top: 12px;
+}
+
+.agree a {
+    font-size: .6rem;
+}
+
+/* create account button */
+.create {
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100%;
+    height: 37px;
+    border: none;
+    margin-top: 18px;
+    font-weight: 550;
+    letter-spacing: -.30px;
+    background-color: #2b69e5;
+    color: white;
+}
+
+/* hr line box */
+.register {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.firstHr, .lastHr {
+    width: 34%;
+    border-top: 1px solid black;
+}
+
+.register p {
+    font-size: .65rem;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 11px;
+    font-weight: 500;
+}
+
+/* google & apple buttons */
+.buttons {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    font-weight: 550;
+}
+.buttons p {
+    font-size: .9rem;
+    margin-bottom: 5px;
+    margin-left: 7px;
+}
+.google p {
+    margin-left: 3px;
+}
+
+.google {   
+    float: left;
+}
+
+.google, .apple {
+    width: 46.9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border: 2px solid rgba(2, 0, 0, 0.151);
+    border-radius: 3px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.apple {
+    float: right;
+    margin-left: 4%;
+}
+
+.google img {
+    height: 25px;
+}
+
+.apple img {
+    height: 20px;    
+}
